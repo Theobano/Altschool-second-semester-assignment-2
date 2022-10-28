@@ -1,0 +1,7 @@
+.pagination-button{
+    cursor: pointer;
+    padding: .5em;
+    min-width: 2em;
+    background-color: transparent;
+    font-weight: bold;
+}

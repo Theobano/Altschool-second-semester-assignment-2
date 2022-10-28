@@ -1,0 +1,39 @@
+.profile-cards{
+    padding: 2em 3em;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1em;
+}
+
+.page-buttons{
+    padding: 1em;
+    display: flex;
+    gap: 1em;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.page-pos-display{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    align-items: center;
+    justify-content: center;
+}
+
+.page-pos-display button{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    border: thin solid #3b4d61;
+    padding: .5em;
+}
+
+.page-pos-display button:disabled{
+    cursor: default;
+}
+
+.current-page{
+    background-color: #3b4d61;
+}

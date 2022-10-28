@@ -1,0 +1,32 @@
+.profile-card{
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+    box-shadow: 1px 1px 5px 1px black;
+}
+
+.profile-details{
+    display: flex;
+    flex-direction: column;
+    gap: .5em;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+}
+
+.profile-picture>img{
+    border-radius: 50%;
+    border: thin solid black;
+    
+}
+
+.profile-details .name{
+    font-size: large;
+    font-weight: bold;
+}
+
+.profile-details *:not(.name){
+    font-size: small;
+}
