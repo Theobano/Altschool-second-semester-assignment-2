@@ -1,0 +1,38 @@
+.home{
+    padding: 0 2em 2em 2em;
+    
+}
+.inpage-nav{
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    background-color: whitesmoke;
+    gap: 1em;
+}
+.navbar {
+    --navbar-height: 1.5em;
+    --navbar-background-color: #3b4d61;
+    /* --navbar-background-color: #212125; */
+    --nav-link-color: #f5f5dc;
+    min-height: var(--navbar-height);
+    width: 100%;
+    background-color: var(--navbar-background-color);
+  }
+
+  
+  .inpage-nav a {
+    display: block;
+    padding: 1em 0em;
+    text-decoration: none;
+    color: black;
+  }
+  .inpage-nav a.active {
+    border-bottom: 0.25em solid black;
+    color: gray;
+    font-size: larger;
+  }
+
+  
+
+  

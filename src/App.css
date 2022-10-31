@@ -10,3 +10,12 @@
   justify-content: center;
   align-items: center;
 }
+
+button{
+  padding: 1em;
+  background-color: #3b4d61;
+  color: white;
+  border: none;
+  border-radius: 0.5em;
+  cursor: pointer;
+}

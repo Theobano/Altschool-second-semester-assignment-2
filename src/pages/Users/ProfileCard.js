@@ -1,10 +1,13 @@
-import React from "react";
+import React, { Suspense } from "react";
+import Loader from "../../components/Loader";
 import "./profilecard.css";
 
 function ProfileCard(props) {
   return (
     <div className="profile-card">
-      <ProfilePicture src={props.picture.large} />
+      <Suspense fallback={Loader}>
+        <ProfilePicture src={props.picture.large} />
+      </Suspense>
       <div className="profile-details">
         <div className="name">
           {props.name.title} {props.name.first} {props.name.last}

@@ -27,11 +27,14 @@ function Users() {
 
   return (
     <div >
+      <div className="center">
+        <h1>Users</h1>
+      </div>
           <div className="profile-cards">{userProfileCards.slice(skip, skip + pageSize)}</div>
           <div className="page-pos-display">
               <button disabled={page<=1} onClick={()=>{setPage(page=>page-1)}}>Prev</button>
               <span>Page {page} of {totalPages}</span>
-              <button isabled={page>=totalPages} onClick={()=>{setPage(page=>page+1)}}>Next</button>
+              <button disabled={page>=totalPages} onClick={()=>{setPage(page=>page+1)}}>Next</button>
           </div>
           <div className="page-buttons">{pageButtons}</div>
     </div>
