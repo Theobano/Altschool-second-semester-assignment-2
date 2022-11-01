@@ -14,7 +14,7 @@ const Route2 = React.lazy(() => import("./components/Route2"));
 
 function App() {
   return (
-    <div id="app">
+    <div id="app" className="app">
       <NavBar />
       <ErrorBoundary>
         <Suspense fallback={<Loader/>}>

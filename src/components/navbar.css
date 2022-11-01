@@ -1,13 +1,12 @@
 .navbar {
-    --navbar-height: 1.5em;
-    --navbar-background-color: #3b4d61;
-    /* --navbar-background-color: #212125; */
-    --nav-link-color: #f5f5dc;
-    min-height: var(--navbar-height);
+    min-height: 4.0em;
     width: 100%;
-    background-color: var(--navbar-background-color);
+    display: flex;
+    align-items: center;
+    background-color: var(--secondary-color);
   }
   .navbar > ul {
+    flex: 1;
     padding: 0;
     margin: 0;
     display: flex;
@@ -28,11 +27,11 @@
     display: block;
     padding: 1em 0em;
     text-decoration: none;
-    color: white;
+    color: var(--primary-color);
   }
   .navbar a.active {
-    border-bottom: 0.25em solid black;
-    color: white;
+    border-bottom: 0.25em solid var(--tertiary-color);
+    color: var(--primary-color);
     font-size: larger;
   }
   

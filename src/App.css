@@ -1,9 +1,28 @@
-#app {
+.app {
   width: 100%;
   height: 100%;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  --primary-color: white;
+  --secondary-color:  #3b4d61;
+  --tertiary-color: black;
+  --tertiary-color2: whitesmoke;
+  
+  background-color: var(--primary-color);
+  color: var(--tertiary-color);
+  transition: all 0.3s ease 0s;
 }
 
-.center{
+.dark{
+  --primary-color: #2a2e34;
+  --secondary-color: #4682b4;
+  --tertiary-color: whitesmoke;
+  --tertiary-color2: black;
+}
+
+
+.center {
   display: flex;
   width: 100%;
   height: 100%;
@@ -11,10 +30,10 @@
   align-items: center;
 }
 
-button{
+button {
   padding: 1em;
-  background-color: #3b4d61;
-  color: white;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
   border: none;
   border-radius: 0.5em;
   cursor: pointer;

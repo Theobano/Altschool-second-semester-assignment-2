@@ -7,8 +7,8 @@
 
 button{
     padding: 1em;
-    background-color: #3b4d61;
-    color: white;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
     border: none;
     border-radius: 0.5em;
     cursor: pointer;

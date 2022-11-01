@@ -1,37 +1,42 @@
-.profile-cards{
-    padding: 2em 3em;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 1em;
-}
-
-.page-buttons{
-    padding: 1em;
+.users{
     display: flex;
-    gap: 1em;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
+    flex-direction: column;
+
 }
 
-.page-pos-display{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1em;
-    align-items: center;
-    justify-content: center;
+.profile-cards {
+  padding: 2em 3em;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1em;
 }
 
-
-.page-pos-display button:disabled{
-    background-color: transparent;
-    border: thin solid #3b4d61;
-    color: #3b4d61;
-    cursor: default;
+.page-buttons {
+  padding: 1em;
+  display: flex;
+  gap: 1em;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 
-.current-page{
-    background-color: transparent;
-    border: thin solid #3b4d61;
-    color: #3b4d61;
+.page-pos-display {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  align-items: center;
+  justify-content: center;
+}
+
+.page-pos-display button:disabled {
+  background-color: transparent;
+  border: thin solid var(--secondary-color);
+  color: var(--secondary-color);
+  cursor: default;
+}
+
+.current-page {
+  background-color: transparent;
+  border: thin solid var(--secondary-color);
+  color: var(--secondary-color);
 }

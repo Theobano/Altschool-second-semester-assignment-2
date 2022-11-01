@@ -1,6 +1,6 @@
 .loader {
-  border: .5em solid #3b4d61;
-  border-top: .5em solid white;
+  border: .5em solid var(--secondary-color);
+  border-top: .5em solid var(--primary-color);
   border-radius: 50%;
   width: 5em;
   height: 5em;
